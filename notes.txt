@@ -1,0 +1,17 @@
+1st TID: e88494b8-c468-4593-8164-0972d55ef582
+
+http://localhost/pwcdemo/news-article-1.html
+
+
+// Call to ONE for any Optimizations for the provided interaction
+customerApi.sendInteraction(defaults.interaction, defaults.properties).then(function (response) {
+	// Default response processing logic for sendInteraction
+	customerApi.processResponse(response);
+});
+
+//$("#LoginEvent").click(function() {
+    // login interaction
+//    customerApi.sendInteraction('/login', defaults.properties);
+//});
+
+
